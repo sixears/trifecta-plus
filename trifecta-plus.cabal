@@ -51,11 +51,15 @@ library
   -- modules included in this library but not exported.
   other-modules:
 
-  default-extensions: NoImplicitPrelude
+  default-extensions: FlexibleContexts
+                    , FlexibleInstances
+                    , NoImplicitPrelude
+                    , NumericUnderscores
                     , OverloadedStrings
                     , QuasiQuotes
                     , RankNTypes
                     , TemplateHaskell
+                    , TypeApplications
                     , UnicodeSyntax
 
   -- LANGUAGE extensions used by modules in this package.
