@@ -52,6 +52,8 @@ library
   other-modules:
 
   default-extensions: NoImplicitPrelude
+                    , OverloadedStrings
+                    , QuasiQuotes
                     , RankNTypes
                     , TemplateHaskell
                     , UnicodeSyntax
