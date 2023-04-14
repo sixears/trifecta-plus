@@ -39,7 +39,7 @@ import Data.Text  ( isInfixOf, length, replace, take, unpack )
 
 -- textual-plus -------------------
 
-import TextualPlus'  ( TextualPlus( textual' ) )
+import TextualPlus  ( TextualPlus( textual' ) )
 
 -- trifecta ----------------------------
 
